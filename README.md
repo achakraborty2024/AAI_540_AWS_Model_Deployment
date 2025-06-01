@@ -10,21 +10,14 @@ A machine learning pipeline built on AWS SageMaker using XGBoost to classify bre
 	•	Goal: Predict breast cancer malignancy based on diagnostic features.
 
  ## Setup
-	1.	Clone the repository:
-
-git clone https://github.com/your-username/xgboost-breast-cancer-sagemaker.git
-cd xgboost-breast-cancer-sagemaker
-
-
+	1.	Clone the repository:git clone <repo name>.git and then do this-> cd <repo name>
 	2.	Set up your SageMaker Studio environment or Jupyter notebook with:
-	•	boto3
-	•	sagemaker
-	•	xgboost
-	•	scikit-learn
-	•	pandas
-	3.	Run the notebook:
-
-   *.ipynb
+		•	boto3
+		•	sagemaker
+		•	xgboost
+		•	scikit-learn
+		•	pandas
+	3.	Run the notebook: *.ipynb
 
 ### Model Training
 	•	Trained using SageMaker built-in XGBoost container.
